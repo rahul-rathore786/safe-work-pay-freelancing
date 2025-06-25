@@ -50,11 +50,6 @@ const RaiseDispute = () => {
           </div>
 
           <div className="flex justify-start items-center mt-5">
-            <img
-              src={job?.image || 'https://via.placeholder.com/50'}
-              alt="job avatar"
-              className="w-12 h-12 rounded-full"
-            />
             <div className="ml-3">
                 <h3 className="text-base font-semibold">{job?.jobTitle}</h3>
             </div>
