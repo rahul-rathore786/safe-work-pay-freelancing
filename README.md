@@ -33,45 +33,108 @@ A decentralized freelancing platform powered by blockchain and AI to ensure secu
 - Developers **bid** on projects and **submit full projects** as they complete work.
 - If a dispute arises, an **AI Agent** checks the **completeness of code** based on requirements and completion percentage; funds are released to the developer and remaining to the client.
 
-## Screenshots
 
-Below are screenshots showcasing different pages and functionalities of SafeWorkPay. These images are placeholders from the `public` folder.
+## 📸 Screenshots
 
-1. **Homepage**
-   ![Homepage](public/job-listing.png)
+Below are screenshots showcasing different pages and functionalities of **SafeWorkPay**. These images are placeholders from the `public` folder.
 
-2. **Post a Project**
-   ![Post Project](public/create-job.png)
+---
 
-3. **Manage Project**
-   ![Project management](public/job-manage.png)
+### 1. 🏠 Homepage
 
-4. **Bidding Interface**
-   ![Bidding](public/view-bids.png)
+![Homepage](public/job-listing.png)
 
-5. **My Job**
-   ![My Bids](public/my-jobs.png)
+> View the landing page listing all available freelance projects.
 
-6. **My Projects**
-   ![My Projects](public/my-projects.png)
+---
 
-7. **Messages/Chat**
-   ![Messages](public/chat.png)
+### 2. 📝 Post a Project
 
-8. **Dispute Raise**
-   ![Dispute Raise](public/raise-dispute.png)
-   
-9. **Admin Dashboard**
-    ![Admin Dashboard](public/admin-dispute.png)
-    
-10. **Dispute Resolve**
-   ![Dispute Resolution](public/resolve-dispute.png)
+![Post Project](public/create-job.png)
 
-11. **Project Completion**
-   ![Submission](public/complete-project.png)
+> Clients can post new freelance projects with required details.
 
-11. **AI Project Completion Evaluation**
-   ![Submission](public/ai-agent.png)
+---
+
+### 3. 📋 Manage Project
+
+![Project management](public/job-manage.png)
+
+> Track and manage project updates, delete projects, and view bids.
+
+---
+
+### 4. 💼 Bidding Interface
+
+![Bidding](public/view-bids.png)
+
+> clients can view bids placed on their projects.
+
+---
+
+### 5. 🧑‍💻 My Job
+
+![My Bids](public/my-jobs.png)
+
+> Freelancers can see all the projects they have assigned.
+
+---
+
+### 6. 📁 My Projects
+
+![My Projects](public/my-projects.png)
+
+> Clients can see all projects they’ve created and assigned. also pay for the projects and chat with freelancers.
+
+---
+
+### 7. 💬 Messages / Chat
+
+![Messages](public/chat.png)
+
+> Real-time communication between clients and freelancers using comet chat.
+
+---
+
+### 8. ⚠️ Dispute Raise
+
+![Dispute Raise](public/raise-dispute.png)
+
+> Raise a dispute if a disagreement arises regarding the project.
+
+---
+
+### 9. 🛠️ Admin Dashboard
+
+![Admin Dashboard](public/admin-dispute.png)
+
+> Admin can monitor and handle disputes from the backend.
+
+---
+
+### 10. 🧑‍⚖️ Dispute Resolve
+
+![Dispute Resolution](public/resolve-dispute.png)
+
+> The system (with AI help) resolves disputes based on task completion and pay amount to freelancers and clients.
+
+---
+
+### 11. ✅ Project Completion
+
+![Submission](public/complete-project.png)
+
+> Freelancers can see all the projects they have completed and payment status of the projects.
+
+---
+
+### 12. 🤖 AI Project Completion Evaluation
+
+![Submission](public/ai-agent.png)
+
+> AI agent evaluates task completion and assists in dispute resolution.
+
+---
 
 ## Installation and Running the Frontend
 
@@ -92,6 +155,16 @@ To run the SafeWorkPay frontend, follow these steps:
 - USDT: `0xb2d7EFb7393fcFCC7C76dcA5da05c8177bA1F6fF`
 
 **Environment Setup**: Make sure to add your MetaMask private key, CometChat credentials, and RPC URL in the `.env` file for the application to function correctly.
+#### add the environment variables in the .env file
+```
+ REACT_APP_COMET_CHAT_APP_ID=
+ REACT_APP_COMET_CHAT_AUTH_KEY=
+ REACT_APP_COMET_CHAT_REGION=
+ REACT_APP_RPC_URL=http://127.0.0.1:8545
+ SEPOLIA_RPC_URL=
+ PRIVATE_KEY=
+ 
+```
 
 ## Running the AI Agent
 
@@ -109,7 +182,8 @@ The AI Agent is a separate component that assists in dispute resolution by evalu
    - Start the frontend:
      ```bash
      yarn start
-     ```
+
+ change file name .env.example to .env and add the environment variables in the .env file in frontend directory.
 
 2. **Backend Setup for AI Agent**
    - Navigate to the backend directory of the AI Agent:
@@ -125,7 +199,7 @@ The AI Agent is a separate component that assists in dispute resolution by evalu
      yarn start
      ```
 
-**Note**: Ensure you add your Gemini API key in the appropriate configuration file for the AI Agent to work correctly.
+**Note**: Ensure you add your Gemini API key in the appropriate configuration file .env for the AI Agent to work correctly.
 
 ## Tools and Technologies Used
 
