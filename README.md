@@ -38,34 +38,40 @@ A decentralized freelancing platform powered by blockchain and AI to ensure secu
 Below are screenshots showcasing different pages and functionalities of SafeWorkPay. These images are placeholders from the `public` folder.
 
 1. **Homepage**
-   ![Homepage](public/screenshot1.png)
+   ![Homepage](public/job-listing.png)
 
 2. **Post a Project**
-   ![Post Project](public/screenshot2.png)
+   ![Post Project](public/create-job.png)
 
-3. **Project Listing**
-   ![Project Listing](public/screenshot3.png)
+3. **Manage Project**
+   ![Project management](public/job-manage.png)
 
 4. **Bidding Interface**
-   ![Bidding](public/screenshot4.png)
+   ![Bidding](public/view-bids.png)
 
-5. **My Bids**
-   ![My Bids](public/screenshot5.png)
+5. **My Job**
+   ![My Bids](public/my-jobs.png)
 
 6. **My Projects**
-   ![My Projects](public/screenshot6.png)
+   ![My Projects](public/my-projects.png)
 
-7. **Dispute Resolution**
-   ![Dispute Resolution](public/screenshot7.png)
+7. **Messages/Chat**
+   ![Messages](public/chat.png)
 
-8. **Messages/Chat**
-   ![Messages](public/screenshot8.png)
+8. **Dispute Raise**
+   ![Dispute Raise](public/raise-dispute.png)
+   
+9. **Admin Dashboard**
+    ![Admin Dashboard](public/admin-dispute.png)
+    
+10. **Dispute Resolve**
+   ![Dispute Resolution](public/resolve-dispute.png)
 
-9. **Project Submission**
-   ![Submission](public/screenshot9.png)
+11. **Project Completion**
+   ![Submission](public/complete-project.png)
 
-10. **Admin Dashboard**
-    ![Admin Dashboard](public/screenshot10.png)
+11. **AI Project Completion Evaluation**
+   ![Submission](public/ai-agent.png)
 
 ## Installation and Running the Frontend
 
