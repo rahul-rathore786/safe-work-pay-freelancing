@@ -26,3 +26,8 @@ safe-pay-memory.md
 *.sln
 *.sw?
 .env
+
+netlify.toml
+windsurf_deployment.yaml
+.build
+build
